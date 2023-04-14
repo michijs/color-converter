@@ -3,7 +3,6 @@
     "allowSyntheticDefaultImports": true,
     "allowUnreachableCode": false,
     "declaration": true,
-    "emitDeclarationOnly": true,
     "experimentalDecorators": true,
     "lib": [
       "dom",
@@ -14,7 +13,6 @@
     "module": "ESNext",
     "target": "ESNext",
     "baseUrl": "./",
-    "types" : ["csstype"],
     "noUnusedLocals": true,
     "noUnusedParameters": true
   },

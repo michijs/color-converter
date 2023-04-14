@@ -1,12 +1,37 @@
-import { Properties } from "csstype";
-
-export type CSSProperties = Properties & {
-  [k in `--${string}`]?: string | number;
-};
-
-export type DataGlobalAttributes = {
-  /**
-   * The data-* global attributes form a class of attributes called custom data attributes, that allow proprietary information to be exchanged between the HTML and its DOM representation by scripts.
-   */
-  [k in `data-${string}`]: string;
-};
+export interface LCH {
+  l: number;
+  c: number;
+  h: number;
+}
+export interface XYZ {
+  x: number;
+  y: number;
+  z: number;
+}
+export interface RGB {
+  r: number;
+  g: number;
+  b: number;
+}
+export interface RGBA extends RGB {
+  a: number;
+}
+export interface LAB extends Pick<LCH, 'l'> {
+  a: number;
+  b: number;
+}
+export interface HSL {
+  h: number;
+  s: number;
+  l: number;
+}
+export interface HSV {
+  h: number;
+  s: number;
+  v: number;
+}
+export interface Reference {
+  CIE_2_1931: XYZ;
+  CIE_10_1964: XYZ;
+}
+export type References = Record<string, Reference>;
