@@ -2,7 +2,7 @@
 A conversion utility for color spaces.
 
 ![npm][version] [![license][github-license]][github-license-url] ![npm][npm-downloads] ![npm][repo-size]
-  [![CodeQL](https://github.com/michijs/color-converter/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/michijs/color-converter/actions/workflows/codeql-analysis.yml)
+  [![CodeQL](https://github.com/michijs/color-converter/actions/workflows/codeql.yml/badge.svg)](https://github.com/michijs/color-converter/actions/workflows/codeql.yml)
   [![Tests](https://github.com/michijs/color-converter/actions/workflows/tests.yml/badge.svg)](https://github.com/michijs/color-converter/actions/workflows/tests.yml)
 
 Based on [CSS color module 4 draft](https://www.w3.org/TR/css-color-4/#color-converter-code) and [Easy RGB documentation](http://www.easyrgb.com/en/math.php)
