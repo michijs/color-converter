@@ -1,4 +1,4 @@
-import { References } from '../types';
+import { References } from "../types";
 
 export const references = {
   /**Incandescent/tungsten */

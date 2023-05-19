@@ -1,4 +1,4 @@
-import { RGB } from '../types';
+import { RGB } from "../types";
 
 export const toHex = (x: number) => {
   const asHex = x.toString(16);
@@ -6,4 +6,4 @@ export const toHex = (x: number) => {
 };
 
 export const rgbToHex = ({ r, g, b }: RGB) =>
-  `#${[r, g, b].map(toHex).join('')}`;
+  `#${[r, g, b].map(toHex).join("")}`;

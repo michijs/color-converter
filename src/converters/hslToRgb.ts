@@ -1,4 +1,4 @@
-import { HSL, RGB } from '../types';
+import { HSL, RGB } from "../types";
 
 const HueToRgb = (v1: number, v2: number, vH: number) => {
   if (vH < 0) vH += 1;

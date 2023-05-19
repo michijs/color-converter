@@ -16,7 +16,7 @@ export interface RGB {
 export interface RGBA extends RGB {
   a: number;
 }
-export interface LAB extends Pick<LCH, 'l'> {
+export interface LAB extends Pick<LCH, "l"> {
   a: number;
   b: number;
 }

@@ -1,4 +1,4 @@
-import { HSV, RGB } from 'src/types';
+import { HSV, RGB } from "src/types";
 
 export const rgbToHsv = ({ r, g, b }: RGB): HSV => {
   const varR = r / 255;

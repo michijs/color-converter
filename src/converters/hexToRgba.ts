@@ -1,4 +1,4 @@
-import { RGBA } from '../types';
+import { RGBA } from "../types";
 
 export const hexToRgba = (hex: string): RGBA => {
   let r: number = 0;
@@ -23,7 +23,7 @@ export const hexToRgba = (hex: string): RGBA => {
       b = parseInt(hex.slice(5, 7), 16);
       if (hex.length === 9) a = parseInt(hex.slice(7, 9), 16);
     } else
-      throw 'Not supported Hex, we only support Hex with 3, 4, 6 or 8 digits';
+      throw "Not supported Hex, we only support Hex with 3, 4, 6 or 8 digits";
   }
 
   return { r, g, b, a };

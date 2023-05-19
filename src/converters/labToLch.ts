@@ -1,4 +1,4 @@
-import { LAB, LCH } from '../types';
+import { LAB, LCH } from "../types";
 
 export const labToLch = ({ l, a, b }: LAB): LCH => {
   // Convert to polar form
