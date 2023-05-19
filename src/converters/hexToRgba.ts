@@ -1,9 +1,9 @@
 import { RGBA } from "../types";
 
 export const hexToRgba = (hex: string): RGBA => {
-  let r: number = 0;
-  let g: number = 0;
-  let b: number = 0;
+  let r = 0;
+  let g = 0;
+  let b = 0;
   let a = 1;
 
   // Scenarios:
