@@ -40,18 +40,6 @@
     "typescript"
   ],
   "devDependencies": {
-    "lint-staged": "13.2.1",
-    "rome": "12.0.0",
-    "simple-git-hooks": "2.8.1",
     "typescript": "5.0.4"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "rome check --apply",
-      "rome format --write"
-    ]
   }
 }
