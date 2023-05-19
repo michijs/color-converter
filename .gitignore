@@ -38,3 +38,5 @@ readme.md
 /HTMLElements
 /SVGElements
 .eslintcache
+
+rome.json
