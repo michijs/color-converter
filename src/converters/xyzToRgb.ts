@@ -1,4 +1,4 @@
-import { RGB, XYZ } from "../types";
+import type { RGB, XYZ } from "../types";
 
 const calculate = (x: number) =>
   (x > 0.0031308 ? 1.055 * Math.pow(x, 1 / 2.4) - 0.055 : 12.92 * x) * 255;

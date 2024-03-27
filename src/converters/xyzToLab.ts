@@ -1,5 +1,5 @@
 import { DefaultReference } from "../constants";
-import { LAB, XYZ } from "../types";
+import type { LAB, XYZ } from "../types";
 
 const calculate = (x: number) =>
   x > 0.008856 ? Math.pow(x, 1 / 3) : 7.787 * x + 16 / 116;

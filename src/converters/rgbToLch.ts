@@ -1,7 +1,7 @@
 import { hexToRgba } from "./hexToRgba";
 import { labToLch } from "./labToLch";
 import { rgbToXyz } from "./rgbToXyz";
-import { LCH, XYZ } from "../types";
+import type { LCH, XYZ } from "../types";
 import { xyzToLab } from "./xyzToLab";
 import { DefaultReference } from "../constants";
 
