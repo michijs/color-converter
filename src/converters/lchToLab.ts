@@ -1,4 +1,4 @@
-import { LAB, LCH } from "../types";
+import type { LAB, LCH } from "../types";
 
 export const lchToLab = ({ l, c, h }: LCH): LAB => ({
   l,

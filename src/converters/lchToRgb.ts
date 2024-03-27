@@ -1,6 +1,6 @@
 import { labToXyz } from "./labToXyz";
 import { lchToLab } from "./lchToLab";
-import { LCH, RGB, XYZ } from "../types";
+import type { LCH, RGB, XYZ } from "../types";
 import { xyzToRgb } from "./xyzToRgb";
 import { DefaultReference } from "../constants";
 

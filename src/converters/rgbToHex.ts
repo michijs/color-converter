@@ -1,4 +1,4 @@
-import { RGB } from "../types";
+import type { RGB } from "../types";
 
 export const toHex = (x: number) => {
   const asHex = x.toString(16);

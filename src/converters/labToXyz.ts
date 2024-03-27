@@ -1,5 +1,5 @@
 import { DefaultReference } from "../constants";
-import { LAB, XYZ } from "../types";
+import type { LAB, XYZ } from "../types";
 
 const calculate = (x: number) => {
   const pow = Math.pow(x, 3);
